@@ -34,8 +34,7 @@ packages:
     hackage: extra-data-yj-0.1.0.0
 snapshots:
 - completed:
-    sha256: afd5ba64ab602cabc2d3942d3d7e7dd6311bc626dcb415b901eaf576cb62f0ea
-    size: 640060
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/21/22.yaml
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/21/22.yaml
+    sha256: 67fe73117afa891e571896f6ac5eeda7aac34353bfaaa1f254779c05ebc09ae1
+    size: 699421
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2023/12/1.yaml
+  original: nightly-2023-12-01
