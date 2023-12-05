@@ -19,7 +19,7 @@ module Control.Moffy (
 	-- ** Traverse
 	find, scanl,
 	-- ** Parallel
-	first, at, break, until, indexBy,
+	first, at, atResult, break, until, indexBy,
 	-- ** Copies
 	spawn, parList ) where
 
@@ -57,6 +57,10 @@ at :: Firstable es es' (ISig s (es :+: es') a r) r' =>
 	Sig s es a r -> React s es' r' ->
 	React s (es :+: es') (Either r (Maybe a, r'))
 at = at_ forkThreadId
+
+atResult :: (r -> String) -> (r' -> String) ->
+	(Either r (Maybe a, r')) -> (Either String a)
+atResult m1 m2 = (Left . m1) `either` (\(mx, r) -> maybe (Left $ m2 r) Right mx)
 
 infixl 7 `break`, `until`
 

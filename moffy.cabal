@@ -43,7 +43,6 @@ library
       Control.Moffy.Run
   other-modules:
       Control.Moffy.Event.Lock.Internal
-      Lib
       Paths_moffy
   autogen-modules:
       Paths_moffy
