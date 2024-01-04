@@ -3,38 +3,10 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages:
-- completed:
-    hackage: freer-par-monad-0.1.0.0@sha256:39b22515a01356f46ef7200ea7ae9560f77aa1441d61bfe682b31884e91d8b12,1999
-    pantry-tree:
-      sha256: 6ba64d7b1e18a329061adb17b1f8d9d2c40bc21baebb7e45ec279f4ce71c15bd
-      size: 786
-  original:
-    hackage: freer-par-monad-0.1.0.0
-- completed:
-    hackage: type-set-0.1.0.0@sha256:b503bb5d41e489ff16cfbfa5e68ef06dde668c42f850f42ea099c7e8805dfc29,1950
-    pantry-tree:
-      sha256: 4af7047ada93198d00e54f9d0fbfa6d96b45e0420de1c94f9a5c0b5382b6e0c3
-      size: 825
-  original:
-    hackage: type-set-0.1.0.0
-- completed:
-    hackage: type-flip-0.1.0.0@sha256:f7811aba3017610117778d1407884c01d8d78c34b4e692ed5ce78bc14dc81640,1375
-    pantry-tree:
-      sha256: 83901862da96beed3d48f8ee7e76c5439073a81f494999097994bd34607697eb
-      size: 363
-  original:
-    hackage: type-flip-0.1.0.0
-- completed:
-    hackage: extra-data-yj-0.1.0.0@sha256:96cff2cae6b9c15859013b4f7ab02f3a822900f1f2653fb1adad4ce905773e84,1389
-    pantry-tree:
-      sha256: fba48ec459c0304dda00aef6c68f5e5d4be371a3908a063d01a32094e45e54a7
-      size: 427
-  original:
-    hackage: extra-data-yj-0.1.0.0
+packages: []
 snapshots:
 - completed:
-    sha256: 67fe73117afa891e571896f6ac5eeda7aac34353bfaaa1f254779c05ebc09ae1
-    size: 699421
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2023/12/1.yaml
-  original: nightly-2023-12-01
+    sha256: 5362057cb009c3df7b588bcb37ade11ffeecf2feb056dae9b418116680117383
+    size: 529494
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2024/1/3.yaml
+  original: nightly-2024-01-03
